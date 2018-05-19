@@ -40,9 +40,9 @@ cacheSolve <- function(x, ... ) {
 }
 
 
+
 ## Testing 
 T1 <- matrix(c(1,2,3,4), 2, 2)
-#solve(T1) # We pretend that this cant't happen xD
 T2 <- makeCacheMatrix(T1)
-cacheSolve(T2) #inverse returned after computation
+cacheSolve(T2)
 
